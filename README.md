@@ -5,23 +5,43 @@ The primary objective of the Transport Management System is to automate and stre
 
 transport_management_system/
 ├── src/
+
 │   ├── main/
+
 │   │   ├── java/
+
 │   │   │   ├── com/
+
 │   │   │   │   ├── example/
+
 │   │   │   │   │   ├── tms/
+
 │   │   │   │   │   │   ├── dao/
+
 │   │   │   │   │   │   │   ├── PassengerDAO.java
+
 │   │   │   │   │   │   │   ├── BookingDAO.java
+
 │   │   │   │   │   │   ├── models/
+
 │   │   │   │   │   │   │   ├── Passenger.java
+
 │   │   │   │   │   │   │   ├── Booking.java
+
 │   │   │   │   │   │   ├── utils/
+
 │   │   │   │   │   │   │   ├── DBConnection.java
+
 │   │   │   │   │   │   ├── MainApp.java
+
 │   ├── resources/
-│   │   ├── application.properties         # Configuration file for database connection and other properties
-│   │   ├── db/                            # Folder to store your SQL files
-│   │   │   ├── transport_system.sql       # SQL file for database creation and initial data
-├── pom.xml                                # Maven configuration file
+
+│   │   ├── application.properties    
+# Configuration file for database connection and other properties
+│   │   ├── db/            
+# Folder to store your SQL files
+│   │   │   ├── transport_system.sql 
+# SQL file for database creation and initial data
+├── pom.xml                   
+# Maven configuration file
 
